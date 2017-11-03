@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200,500,800|Scope+One');
 
 /*
-Style for mobile design
+STYLE FOR MOBILE DESIGN
 */
 
 /*
@@ -43,7 +43,6 @@ Header
 /*
 End of Header
 */
-
 
 /*
 Navigation
@@ -103,7 +102,6 @@ Navigation
 End of Navigation
 */
 	
-	
 /*
 Footer
 */
@@ -145,15 +143,14 @@ Footer
 /*
 End of Footer
 */
-
-
+/*
+END OF STYLE FOR MOBILE DESIGN
+*/
 
 /*
 TABLET SIZE SCREEN
 */
 @media screen and (min-width: 700px) {
-   
-	
 /*
 Header
 */
@@ -236,16 +233,13 @@ END OF TABLET SIZE SCREEN
 */
 
 
-
 /*
 DESKTOP SIZE SCREEN
 */
 @media screen and (min-width: 1100px) {
-   
 /*
 Header
 */
-
 	.banner {
 		width:250px;
 		padding:0;
@@ -265,8 +259,6 @@ End of Header
 /*
 Navigation
 */
-
-	
 	nav {
 		width:60%;
 	}
@@ -274,18 +266,6 @@ Navigation
 /*
 End of Navigation
 */
-
-/*
-Footer
-*/
-
-/*no changes */
-
-
-/*
-End of Footer
-*/
-	
 }
 /*
 END OF DESKTOP SIZE SCREEN
@@ -296,22 +276,9 @@ END OF DESKTOP SIZE SCREEN
 MAX FIXED STYLE FOR XL SIZE SCREEN
 */
 @media screen and (min-width: 1500px) {
-   
-/*
-Header
-*/
-
-	
-
-/*
-End of Header
-*/
-
 /*
 Navigation
 */
-
-	
 	nav {
 		width:900px;
 	}
@@ -319,20 +286,6 @@ Navigation
 /*
 End of Navigation
 */
-
-/*
-Footer
-*/
-
-/*no changes */
-footer {
-	background-color:green;
-}
-
-/*
-End of Footer
-*/
-	
 }
 /*
 END OF MAX FIXED STYLE FOR XL SIZE SCREEN

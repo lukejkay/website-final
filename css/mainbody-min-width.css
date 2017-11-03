@@ -60,10 +60,70 @@ article {
 	background-color:#f0f0f0;
 }
 
+ul {
+	width:100%;
+	margin:10px 0;
+	padding:0;
+}
+
+li {
+	list-style:none;
+}
+
+#half {
+	text-align:left;
+	padding:0 10px;
+	margin:0 auto;
+}
 	
 article p {
 	width:80%;	
 }
+
+.contactpage {
+	width:100%;
+	margin:20px 0;
+}
+
+
+
+/*FORM DESIGN */
+input[type=text], textarea {
+	font-family:'Raleway';
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+	background-color:#f0f0f0;
+	resize:none;
+}
+
+input[type=text]:hover, textarea:hover {
+	border-color:#d7d7d7;
+}
+
+textarea {
+	height:150px;
+}
+
+input[type=submit] {
+	text-align:left;
+    width: 100%;
+    background-color: #313131;
+    color: #f0f0f0;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #d7d7d7;
+}
+
+/*END OF FORM DESIGN */
 
 
 /*
@@ -103,12 +163,23 @@ TABLET SIZE SCREEN
 	article p {
 		width:80%;	
 	}
+	
+	
+	#half {
+		padding-bottom:20px;
+		width:70%;
+		text-align:center;
+	}
+	
+	li a img {
+		width:30px;
+	}
+	
+	
 }
 /*
 END OF TABLET SIZE SCREEN
 */
-
-
 
 /*
 DESKTOP SIZE SCREEN
@@ -137,6 +208,17 @@ DESKTOP SIZE SCREEN
 		width:50%;	
 	}
 
+	#half {
+		width:30%;
+		display:inline-block;
+		text-align:left;
+		vertical-align:top;
+	}
+	
+	ul {
+		margin-top:30px;
+	}
+	
 }
 /*
 END OF DESKTOP SIZE SCREEN
@@ -162,6 +244,10 @@ MAX FIXED STYLE FOR XL SIZE SCREEN
 		margin:0 50px;
 		width:300px;
 }
+
+	#half {
+			width:450px;
+		}
    
 }
 /*

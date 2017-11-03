@@ -36,6 +36,16 @@ img {
 	width:20%;
 }
 
+li {
+	list-style:none;
+}
+
+#half {
+	text-align:left;
+	padding:0 10px;
+	margin:0 auto;
+}
+
 
 /* ARTICLE DESIGN */
 
@@ -53,6 +63,47 @@ article {
 	width:20%;
 	background-color:#f0f0f0;
 }
+
+
+/*FORM DESIGN */
+input[type=text], textarea {
+	font-family:'Raleway';
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #313131;
+    box-sizing: border-box;
+	background-color:#f0f0f0;
+	resize:none;
+}
+
+input[type=text]:hover, textarea:hover {
+	border-color:#d7d7d7;
+}
+
+textarea {
+	height:150px;
+}
+
+input[type=submit] {
+	text-align:left;
+    width: 100%;
+    background-color: #313131;
+    color: #f0f0f0;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #d7d7d7;
+}
+
+/*END OF FORM DESIGN */
+
+
 
 
 /*END OF BODY AND MAIN */

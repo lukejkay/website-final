@@ -18,11 +18,6 @@
   }
   
   
-  
-  
-  
-  
-  
   let minutehandchange = document.getElementById("minutehand");
 let hourhandchange = document.getElementById("hourhand");
 let secondhandchange = document.getElementById("secondhand");

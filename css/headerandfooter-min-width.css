@@ -25,20 +25,59 @@ Header
 		
 	.banner {
 		display:none;
+		margin:0 auto;
 	}
 	
-	header img {
-		display:block;
-		margin:0 auto;
-		width:125px;
-		padding-top:30px;
-		padding-bottom:20px;
-	}
+	
 	
 	header h1 {
 		display: block;
 		font-size:2.5em;
 		margin-bottom:0;
+	}
+	
+	header img {
+		width:160px;
+	}
+	
+	
+/*Clock CSS */
+
+
+.clockbackground { 
+		position:absolute; 
+		top: 0px; 
+		z-index: 1;
+		left: 50%;
+		margin-left: -80px;
+	}
+.imghourhand { 
+		position:absolute; 
+		top: 0px; 
+		z-index: 2;
+		left: 50%;
+		margin-left: -80px;
+	}
+.imgminutehand { 
+		position:absolute; 
+		top: 0px; 
+		z-index: 3;
+		left: 50%;
+		margin-left: -80px;
+	} 
+.imgsecondhand { 
+	position:absolute; 
+	top: 0px; 
+	z-index: 4;
+	left: 50%;
+	margin-left: -80px;
+} 
+.container { 
+		position:relative; 
+		width:100%; 
+		padding-top:100px;
+		padding-bottom:150px; 
+		margin-top:30px;
 	}
 
 

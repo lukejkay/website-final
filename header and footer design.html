@@ -9,11 +9,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
+
 <body>
 
 <header>
-
-<img id="logo" src="img/logo.png" alt="logo"/>
+<div class="container">
+<img class="clockbackground" src="img/background-clock.png" alt="logo"/>
+<img class="imgminutehand" id="minutehand" src="img/minutehand.png">
+<img class="imghourhand" id="hourhand" src="img/hour-hand.png">
+<img class="imgsecondhand" id="secondhand" src="img/secondhand.png">
+</div>
 
 	<a id="menu" href="#">Menu</a>
   <nav id="nav-menu">
@@ -59,16 +64,8 @@
 
 
 </footer>
-<script language="javascript">
-        function MouseRollover(MyImage) {
-         MyImage.src = "img/" + MyImage.alt + "-icon-rollover.png";
-    }
-        function MouseOut(MyImage) {
-                MyImage.src = "img/" + MyImage.alt + "-icon.png";
-    }
-</script>
-
 <script src="scripts.js"></script>
+
 
 </body>
 </html>

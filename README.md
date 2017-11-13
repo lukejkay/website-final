@@ -1,55 +1,55 @@
 # Website Project
 
-##Introduction
+## Introduction
 
-##Initial Designs
+## Initial Designs
 
-####Header & Navigation Design
+#### Header & Navigation Design
 
-####Footer Design
+#### Footer Design
 
-####Pages Created
+#### Pages Created
 
-##Greyscale Layour of Page Content
+## Greyscale Layour of Page Content
 
-####Home Page
+#### Home Page
 
-#####Desktop Layout
+##### Desktop Layout
 
-#####Mobile Layout
+##### Mobile Layout
 
 #### About Page
 
-#####Desktop Layout
+##### Desktop Layout
 
-#####Mobile Layout
+##### Mobile Layout
 
-####Portfolio Page
+#### Portfolio Page
 
-#####Desktop Layout
+##### Desktop Layout
 
-#####Mobile Layout
+##### Mobile Layout
 
-####Skills Page
+#### Skills Page
 
-#####Desktop Layout
+##### Desktop Layout
 
-#####Mobile Layout
+##### Mobile Layout
 
-####Contact Page
+#### Contact Page
 
-#####Desktop Layout
+##### Desktop Layout
 
-#####Mobile Layout
+##### Mobile Layout
 
-##Prototypes
+## Prototypes
 
-#####Home page Design
+##### Home page Design
 
-#####About page Design
+##### About page Design
 
-#####Portfolio page Design
+##### Portfolio page Design
 
-#####Skills page Design
+##### Skills page Design
 
-#####Contact page Design
+##### Contact page Design

@@ -1,24 +1,4 @@
-(function(){
-
-  let menuButton = document.getElementById("menu");
-  let navMenu = document.getElementById("nav-menu");
-
-  menuButton.addEventListener("click", toggleMenu);
-
-  let toggle = false; 
-  function toggleMenu(){
-    if (toggle) { 
-      navMenu.classList.remove("show-menu"), 
-      toggle = false
-    }
-    else { 
-      navMenu.classList.add("show-menu"), 
-      toggle = true
-    }
-  }
-  
-  
-  let minutehandchange = document.getElementById("minutehand");
+let minutehandchange = document.getElementById("minutehand");
 let hourhandchange = document.getElementById("hourhand");
 let secondhandchange = document.getElementById("secondhand");
 var myVar = setInterval(function(){ myClock() }, 1000);
@@ -49,16 +29,3 @@ return (360/60) * (minute)
 function toseconddegrees() {
 return (360/60) * (second)
 }
-
-
-
-
-
-   function MouseRollover(MyImage) {
-         MyImage.src = "img/" + MyImage.alt + "-icon-rollover.png";
-    }
-        function MouseOut(MyImage) {
-                MyImage.src = "img/" + MyImage.alt + "-icon.png";
-    }
-
-})();

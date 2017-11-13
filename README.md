@@ -11,7 +11,10 @@ When designing a website I prefer to use Photoshop for my designs as well as a g
 My website will be responsive therefore there will be designs for the mobile device as well as desktop, there will be no designs for a tablet as this works with the desktop design.
 
 #### Header & Navigation Design
-Below is my header design for the desktop. This design will be consistent throughout all of the pages in this website, there will be no change apart from maybe the page that will be open may have a active design like bold text
+Below is my header design for the desktop. This design will be consistent throughout all of the pages in this website, there will be no change apart from maybe the page that will be open may have a active design like bold text.
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Header design and navigation desktop")
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Header and navigation design footer")
 
 #### Footer Design
 

@@ -152,12 +152,6 @@ article p {
 	width:30%;
 }
 
-/* Design for Background images of circle css for portfolio */
-
-#categoryname {
-	background-image: url("../img/macbook_localization_feat.jpg");
-}
-
 
 /*FORM DESIGN */
 input[type=text], textarea {
@@ -196,6 +190,48 @@ input[type=submit]:hover {
 }
 
 /*END OF FORM DESIGN */
+
+/*Category ids background images */
+
+#website1{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#website2{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#website3{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#website4{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic1{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic2{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic3{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic4{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#print1{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#print2{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#print3{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#print4{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+
+
+
 
 
 /*

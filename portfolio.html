@@ -42,10 +42,10 @@
 
 
 <ul class="filternav">
-<li><a href="#">All Projects<a></li>
-<li><a href="#">Web Design<a></li>
-<li><a href="#">Graphic Design<a></li>
-<li><a href="#">Print Media<a></li>
+<li><a href="#" onclick="allFilterFunction()">All Projects<a></li>
+<li><a href="#" onclick="webFilterFunction()">Web Design<a></li>
+<li><a href="#" onclick="graphicFilterFunction()">Graphic Design<a></li>
+<li><a href="#" onclick="printFilterFunction()">Print Media<a></li>
 </ul>
 
 
@@ -54,18 +54,18 @@
 <section class="flex-container">
 
 
-<article class="circle" id="categoryname"></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
-<article class="circle" id="categoryname"/></article>
+<article class="circle" id="website1" ></article>
+<article class="circle" id="website2" ></article>
+<article class="circle" id="website3" ></article>
+<article class="circle" id="website4" ></article>
+<article class="circle" id="graphic1" ></article>
+<article class="circle" id="graphic2" ></article>
+<article class="circle" id="graphic3" ></article>
+<article class="circle" id="graphic4" ></article>
+<article class="circle" id="print1" ></article>
+<article class="circle" id="print2" ></article>
+<article class="circle" id="print3" ></article>
+<article class="circle" id="print4" ></article>
 
 
 
@@ -94,16 +94,10 @@
 
 
 </footer>
-<script language="javascript">
-        function MouseRollover(MyImage) {
-         MyImage.src = "img/" + MyImage.alt + "-icon-rollover.png";
-    }
-        function MouseOut(MyImage) {
-                MyImage.src = "img/" + MyImage.alt + "-icon.png";
-    }
-</script>
-
-<script src="scripts.js"></script>
+<script src="nav.js"></script>
+<script src="img-rollover.js"></script>
+<script src="clock.js"></script>
+<script src="filter-portfolio.js"></script>
 
 </body>
 </html>

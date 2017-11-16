@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Website Project - Portfolio website
+=======
+# Website Project
+>>>>>>> e9d54007d0c3f41e8f119697423dfbd95124d342
 
 ## Introduction
 

@@ -110,5 +110,16 @@ Another problem with the website is there was no accessibility available to user
 #### Changes I have made
 I have resolved this problem by adding a larger text button to the top of the website.
 
+####Third test Problem - second test
+The larger text works on all pages, but when you change pages it would be better if it already knew I had pressed the button to make the text larger as I have to do it on all pages
+####Changes I have made
+**NEED TO ASK IN LAB ABOUT THIS PROBLEM**
+
+## Problems I have encountered
+
+1. I made rollover images with javascript rather than css, this has been changed, the javascript is still available to be seen in the GitHub repository, it is not linked with the website
+2. The contact page had some css applied to the sections I didnt want it to have, this has been changed within the css file by applying a :not to the style and not applying to the class
+3. My css was developed from max width instead of min width, this has been changed, original css is available to see in the css folder
+
 ## References
 References go here

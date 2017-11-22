@@ -21,7 +21,7 @@ The footer will look consistent throughout the different screen sizes, but at mo
 ![Footer design desktop](https://github.com/lukejkay/website-final/blob/master/images-readmefile/header%20and%20navigation%20and%20footer%20design%20full%20screen%20-%20Copy.jpg "Footer design desktop")
 ![footer design mobile](https://github.com/lukejkay/website-final/blob/master/images-readmefile/header%20and%20navigation%20mobile%20screen.jpg "Footer design mobile")
 
-####Header and Footer together
+#### Header and Footer together
 ![Header and footer together](https://github.com/lukejkay/website-final/blob/master/images-readmefile/header%20and%20navigation%20and%20footer%20design%20full%20screen.jpg "header and footer together")
 
 #### Pages Created
@@ -110,9 +110,9 @@ Another problem with the website is there was no accessibility available to user
 #### Changes I have made
 I have resolved this problem by adding a larger text button to the top of the website.
 
-####Third test Problem - second test
+#### Third test Problem - second test
 The larger text works on all pages, but when you change pages it would be better if it already knew I had pressed the button to make the text larger as I have to do it on all pages
-####Changes I have made
+#### Changes I have made
 **NEED TO ASK IN LAB ABOUT THIS PROBLEM**
 
 ## Problems I have encountered

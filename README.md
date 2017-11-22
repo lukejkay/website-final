@@ -26,12 +26,12 @@ The footer will look consistent throughout the different screen sizes, but at mo
 
 #### Pages Created
 I will be creating a website which consists of 5 pages, these are
-Home
-About me
-Portfolio
-Individual Portfolio Page
-Skills
-Contact
+1. Home
+2. About me
+3. Portfolio
+4. **Individual Portfolio Page** - This page was added at a later stage, this is why there is no design for this page
+5. Skills
+6. Contact
 
 #### Navigation Plan
 ![Navigation plan](https://github.com/lukejkay/website-final/blob/master/images-readmefile/navigation%20plan.jpg "Navigation Plan")
@@ -85,6 +85,30 @@ Rollover buttons did not suit the design of the website, they should be in the s
 #### Changes I have made
 
 My first change was the javascript rollover buttons, I had done JavaScript Rollover buttons to showcase my text manipulation skills in Javascript(The code is still available to view on GitHub), this also allowed me to avoid using backgrounds and changeing the backgrounds in css, but I have changed this to be a more interactive experience for the user by making them graphical and animated
+
+#### Second test Problems
+One user I tested suggested that the portfolios would be good if there was a page where it would give more information on that particular project.
+
+#### Changes I have made
+I have created a page which allows a user to click on the articles on the page for my portfolio and it will take them to a seperate page about the project. <ENTER>
+Problems are <ENTER>
+1. This will be multiple pages
+2. Too long to design multiple pages and add them into the website
+3. What happens if i want to add more projects to the website?
+
+The way I have resolved this is by creating 1 page which when a button is pressed, it will pass information through the hhtp request and it will pull the information from a JSON file,
+The JSON file will include:
+1. Name of the project
+2. links to the images I want to display
+3. skills i used in the project
+4. a brief description of the project
+6. When I add more projects in the JSON file, How do I make the website update the portfolio page to automatically add the new projects
+7. If I have time I will develop this into the project
+
+#### Third test Problems
+Another problem with the website is there was no accessibility available to users, the main problem with this user is the text was too small
+#### Changes I have made
+I have resolved this problem by adding a larger text button to the top of the website.
 
 ## References
 References go here

@@ -59,19 +59,19 @@ I have created a layout of the page content in Photoshop to help me focus on how
 All of my final designs have been designed using Photoshop, this is a great way for me to finalise my design and showcase how I want my final deliverable to be. I have only designed the desktop in final design as the mobile designs are exactly the same just played out differently as can be seen through the greyscale designs.
 
 ##### Home page Design
-![alt text](LINKIMAGE "home page prototype design")
+![home page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/home%20page%20final%20design%20desktop%20and%20mobile.jpg "home page prototype design")
 
 ##### About page Design
-![alt text](LINKIMAGE "about page prototype design")
+![about page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/about%20page%20final%20design%20desktop%20and%20mobile.jpg "about page prototype design")
 
 ##### Portfolio page Design
-![alt text](LINKIMAGE "portfolio page prototype design")
+![portfolio page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/portfolio%20page%20final%20design%20desktop%20and%20mobile.jpg "portfolio page prototype design")
 
 ##### Skills page Design
-![alt text](LINKIMAGE "skills page prototype design")
+![skills page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/skills%20page%20final%20design%20desktop%20and%20mobile.jpg "skills page prototype design")
 
 ##### Contact page Design
-![alt text](LINKIMAGE "contact page prototype design")
+![contact page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/contact%20page%20final%20design%20desktop%20and%20mobile.jpg "contact page prototype design")
 
 ## JavaScript Included in the website
 

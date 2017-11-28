@@ -222,18 +222,22 @@ button {
 #website4{
 	background-image: url("../img/avstore-logo.png");
 	background-size:100%;
-}/*
-#graphic1{
-	background-image: url("../img/macbook_localization_feat.jpg");
 }
-#graphic2{
-	background-image: url("../img/macbook_localization_feat.jpg");
+#website5{
+	background-image: url("../img/avstore-logo.png");
+	background-size:100%;
 }
-#graphic3{
-	background-image: url("../img/macbook_localization_feat.jpg");
+#website6{
+	background-image: url("../img/avstore-logo.png");
+	background-size:100%;
 }
-#graphic4{
-	background-image: url("../img/macbook_localization_feat.jpg");
+#website7{
+	background-image: url("../img/avstore-logo.png");
+	background-size:100%;
+}
+#website8{
+	background-image: url("../img/avstore-logo.png");
+	background-size:100%;
 }
 #print1{
 	background-image: url("../img/macbook_localization_feat.jpg");
@@ -247,8 +251,15 @@ button {
 #print4{
 	background-image: url("../img/macbook_localization_feat.jpg");
 }
-
-*/
+#graphic1{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic2{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
+#graphic3{
+	background-image: url("../img/macbook_localization_feat.jpg");
+}
 
 /*animation for social icons */
 

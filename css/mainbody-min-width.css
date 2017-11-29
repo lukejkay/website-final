@@ -111,6 +111,9 @@ li:last-of-type {
 	margin:0 auto;
 }
 
+.half li {
+	display:block;
+}
 	
 article p {
 	width:80%;	
@@ -224,41 +227,48 @@ button {
 	background-size:100%;
 }
 #website5{
-	background-image: url("../img/avstore-logo.png");
+	background-image: url("../img/cc-logo.png");
 	background-size:100%;
 }
 #website6{
-	background-image: url("../img/avstore-logo.png");
+	background-image: url("../img/mch-logo.png");
 	background-size:100%;
 }
 #website7{
-	background-image: url("../img/avstore-logo.png");
+	background-image: url("../img/ahch-logo.png");
 	background-size:100%;
 }
 #website8{
-	background-image: url("../img/avstore-logo.png");
+	background-image: url("../img/cbs-logo.png");
 	background-size:100%;
 }
 #print1{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/mch-print-logo.png");
+	background-size:100%;
 }
 #print2{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/ah-print.png");
+	background-size:100%;
 }
 #print3{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/dbl-print-logo.png");
+	background-size:100%;
 }
 #print4{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/uf-print-logo.png");
+	background-size:100%;
 }
 #graphic1{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/sss-graphic-logo.png");
+	background-size:100%;
 }
 #graphic2{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/slc-graphic-logo.png");
+	background-size:100%;
 }
 #graphic3{
-	background-image: url("../img/macbook_localization_feat.jpg");
+	background-image: url("../img/ben-graphic-logo.png");
+	background-size:100%;
 }
 
 /*animation for social icons */

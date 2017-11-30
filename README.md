@@ -113,7 +113,9 @@ I have resolved this problem by adding a larger text button to the top of the we
 #### Third test Problem - second test
 The larger text works on all pages, but when you change pages it would be better if it already knew I had pressed the button to make the text larger as I have to do it on all pages
 #### Changes I have made
-**NEED TO ASK IN LAB ABOUT THIS PROBLEM**
+With this problem I was able to work the local storage to be saved and checked on page load, if it was true then the text would be large, if it was false then the page would be normal size; 
+The value when automatically opened is false, the button needs to be pressed to activate the larger text; a suggestion to improve was to check if there computer settings was already on enhanced view,
+but this would take a long time and permission to view computer settings.
 
 ## Problems I have encountered
 

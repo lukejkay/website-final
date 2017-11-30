@@ -27,7 +27,6 @@ let allprojects = '{"projects":[' +
 '{"projectTitle":"Design By Light – Print Design","id":"dblprint", "projectDescription":"Design by Light only wanted luxury business cards, to look better than normal business cards, this involved communication with printers to allow the ideas and designs I had to be able to be possible, the idea for the business cards was to have the logo in gold but different material than the matte paper to be printed on. The outcome of the business cards were fantastic.", "imgSrc" : "img/dblprint.jpg", "skill1" : "PSD", "skill2" : "ILL", "skill3" : "inDesign" }]}';
 
 obj = JSON.parse(allprojects);
-console.log("projname" + projName.length);
 if (projName.length === 65){
 	window.location.replace("portfolio.html");
 }
@@ -53,19 +52,15 @@ icn2.src = seticon(2);
 icn3.src = seticon(3);
 
 function seticon(x) {
-	console.log("function called");
 	
-			if (x === 1){
-			console.log("case 1");
-			return "img/" + obj.projects[i].skill1 + "-icon.png";
+			if (x === 1){			
+			return "img/" + obj.projects[i].skill1.toLowerCase() + "-icon.png";
 			}
 			else if (x === 2){
-				console.log("case 2");
-			return "img/" + obj.projects[i].skill2 + "-icon.png";
+			return "img/" + obj.projects[i].skill2.toLowerCase() + "-icon.png";
 			}
 			else if (x === 3){
-				console.log("case 3");
-			return "img/" + obj.projects[i].skill3 + "-icon.png";
+			return "img/" + obj.projects[i].skill3.toLowerCase() + "-icon.png";
 			}
 }
 

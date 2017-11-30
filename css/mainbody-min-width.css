@@ -158,7 +158,7 @@ article p {
 
 
 /*FORM DESIGN */
-input[type=text], textarea {
+input[type=text], input[type=email], textarea {
 	font-family:'Raleway';
     width: 100%;
     padding: 12px 20px;
@@ -170,7 +170,7 @@ input[type=text], textarea {
 	resize:none;
 }
 
-input[type=text]:hover, textarea:hover {
+input[type=text]:hover, input[type=email]:hover, textarea:hover {
 	border-color:#d7d7d7;
 }
 

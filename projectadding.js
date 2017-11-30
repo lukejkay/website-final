@@ -27,7 +27,10 @@ let allprojects = '{"projects":[' +
 '{"projectTitle":"Design By Light – Print Design","id":"dblprint", "projectDescription":"Design by Light only wanted luxury business cards, to look better than normal business cards, this involved communication with printers to allow the ideas and designs I had to be able to be possible, the idea for the business cards was to have the logo in gold but different material than the matte paper to be printed on. The outcome of the business cards were fantastic.", "imgSrc" : "img/dblprint.jpg", "skill1" : "PSD", "skill2" : "ILL", "skill3" : "inDesign" }]}';
 
 obj = JSON.parse(allprojects);
-if (projName.length === 65){
+console.log(projName.length);
+projName = "https://lukejkay.github.io/website-final/individual-portfolio.html";
+console.log(projName.length);
+if (projName.length === 65 || projName.length === 66){ // 65 for on local host, 66 for github repository
 	window.location.replace("portfolio.html");
 }
 

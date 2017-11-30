@@ -49,9 +49,9 @@
 
 
 <h2>Get in touch</h2>
-<form>
+<form onsubmit="return formcheck()">
   <input id="namefield" type="text" name="name" placeholder="Your name">
-  <input id="emailfield" type="text" name="email" placeholder="Your email">
+  <input id="emailfield" type="text" name="email" placeholder="Your email" onkeypress="return checkEmailDomain(event)">
   <textarea id="textareafield" name="message" placeholder="Message"></textarea>
   <br><br>
   <input id="submit" type="submit">

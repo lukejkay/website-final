@@ -179,3 +179,4 @@ https://www.pinterest.co.uk/
 http://nexusdigital.co/content/uploads/2014/03/facebook-icon.png
 http://icons.iconarchive.com/icons/sicons/basic-round-social/512/twitter-icon.png
 http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png
+https://www.xml-sitemaps.com/

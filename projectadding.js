@@ -28,7 +28,6 @@ let allprojects = '{"projects":[' +
 
 obj = JSON.parse(allprojects);
 console.log(projName.length);
-projName = "https://lukejkay.github.io/website-final/individual-portfolio.html";
 console.log(projName.length);
 if (projName.length === 65 || projName.length === 66){ // 65 for on local host, 66 for github repository
 	window.location.replace("portfolio.html");

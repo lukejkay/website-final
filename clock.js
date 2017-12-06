@@ -1,12 +1,13 @@
 let minutehandchange = document.getElementById("minutehand");
 let hourhandchange = document.getElementById("hourhand");
 let secondhandchange = document.getElementById("secondhand");
-var myVar = setInterval(function(){ myClock() }, 1000);
+var myVar = setInterval(function() {
+	myClock()
+}, 1000);
 var date = new Date();
 var hour = date.getHours();
 var minute = date.getMinutes();
 var second = date.getSeconds();
-
 
 function myClock() {
 	date = new Date();
@@ -19,13 +20,13 @@ function myClock() {
 }
 
 function tohourdegrees() {
-return (360/12) * (hour)
+	return (360 / 12) * (hour)
 }
 
 function tominutedegrees() {
-return (360/60) * (minute)
+	return (360 / 60) * (minute)
 }
 
 function toseconddegrees() {
-return (360/60) * (second)
+	return (360 / 60) * (second)
 }

@@ -1,109 +1,93 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  
-  <link rel="stylesheet" href="css/mainbody-min-width.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Luke Archer | Portfolio - Name </title>
 
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/mainbody-min-width.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Luke Archer | Portfolio - Name </title>
 </head>
 
 <body>
-
-<header>
-<div class="container">
-<img id="increasetext" src="img/enlargetext.png" class="access"/>
-<img class="clockbackground" src="img/background-clock.png" alt="logo"/>
-<img class="imgminutehand" id="minutehand" src="img/minutehand.png" alt="minute hand">
-<img class="imghourhand" id="hourhand" src="img/hour-hand.png" alt="hour hand">
-<img class="imgsecondhand" id="secondhand" src="img/secondhand.png" alt="second hand">
-</div>
-
-   <a id="menu" href="#">Menu</a>
-  <nav id="nav-menu">
-    <a href="index.html">HOME</a>
-    <a href="about.html">About me</a>
-    <a href="portfolio.html">portfolio</a>
-    <a href="skills.html">skills</a>
-    <a href="contact.html">contact</a>
-  </nav>
- 
-
-</header>
-
-<main>
-
-<!--SLIDER HERE -->
-<section>
-  <h1 id="demo"></h1>
-<img class="slider" id="projectImage" src="#" alt="PORTFOLIO IMAGE NAME"/>
-</section>
-<section class="flex-container">
-<h2>A bit about this project</h2>
-<p id="description"></p>
-
-
-<h2>What Skills I used on this project.</h2>
-
-<article class="circle">
-
-<img id="icon1" src="#" alt="banner"/>
-
-<h2 id="skill1"></h2>
-
-</article>
-
-<article class="circle">
-
-<img id="icon2" src="#" alt="banner"/>
-
-<h2 id="skill2"></h2>
-
-</article>
-
-<article class="circle">
-
-<img id="icon3" src="#" alt="banner"/>
-
-<h2 id="skill3"></h2>
-
-</article>
-</section>
-<section id="thirds">
-<ul>
-<li class="cta"><h3>Have a Question? Why not get in touch and ask.</h3></li>
-<li class="cta"><a href="contact.html"><button>Get in touch</button></a></li>
-</ul>
-</section>
-
-</main>
-
-
-<footer>
-
- 
-<ul class="icons">
-<li><img src="http://nexusdigital.co/content/uploads/2014/03/facebook-icon.png" class="rolloversocial"/></li>
-<li><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/twitter-icon.png" class="rolloversocial" /></li>
-<li><img src="http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png" class="rolloversocial"/></li>
-</ul>
-
-
-<ul>
-<li><a href="mailto:archer.luke1@googlemail.com" class="footerlinks">archer.luke1@googlemail.com</a></li>
-<li><a href="tel:07472343534" class="footerlinks">07472343534</a></li>
-<li><a href="index.html" class="footerlinks">lukearcher.com</a></li>
-<li><a href="sitemap.xml" class="footerlinks">Sitemap</a></li>
-</ul>
-
-
-
-</footer>
-<script src="nav.js"></script>
-<script src="clock.js"></script>
-<script src="access.js"></script>
-<script src="projectadding.js"></script>
-
+	<header>
+		<div class="container"> 
+			<img id="increasetext" src="img/enlargetext.png" class="access" alt="click to make text larger"/> 
+			<img class="clockbackground" src="img/background-clock.png" alt="logo" /> 
+			<img class="imgminutehand" id="minutehand" src="img/minutehand.png" alt="minute hand"> 
+			<img class="imghourhand" id="hourhand" src="img/hour-hand.png" alt="hour hand"> 
+			<img class="imgsecondhand" id="secondhand" src="img/secondhand.png" alt="second hand"> 
+		</div> 
+		<a id="menu" href="#">Menu</a>
+		<nav id="nav-menu"> 
+			<a href="index.html">Home</a> 
+			<a href="#">About me</a> 
+			<a href="portfolio.html">portfolio</a> 
+			<a href="skills.html">skills</a> 
+			<a href="contact.html">contact</a> 
+		</nav>
+	</header>
+<!-- main image of the individual portfolio, src is in JSON data-->
+<!-- Beginning the main body, the header and footer and head sections are the same on all pages, description about header and footer can be found on index.html-->
+	<main>
+<!-- this page has a lot of empty tags, which will be filled with js, this page acts as a template for all portfolio information, it will be filled with JSON data-->
+		<section>
+			<h2 id="demo">Name of Portfolio</h2> 
+			<img class="slider" id="projectImage" src="#" alt="PORTFOLIO IMAGE NAME" /> 
+		</section>
+		<section class="flex-container">
+			<h2>A bit about this project</h2>
+<!-- description id-->
+<!-- skill image id and skill name id will change as the page is called-->
+			<p id="description"></p>
+			<h2>What Skills I used on this project.</h2>
+			<article class="circle"> 
+				<img id="icon1" src="#" alt="banner" />
+				<h2 id="skill1">Skill 1</h2> 
+			</article>
+			<article class="circle"> 
+				<img id="icon2" src="#" alt="banner" />
+				<h2 id="skill2">Skill 2</h2> 
+			</article>
+			<article class="circle"> 
+				<img id="icon3" src="#" alt="banner" />
+				<h2 id="skill3">Skill 3</h2> 
+			</article>
+		</section>
+<!-- cta design same on skills and portfolio page-->
+		<section id="thirds">
+			<ul>
+				<li class="cta">
+					<h3>Have a Question? Why not get in touch and ask.</h3>
+				</li>
+				<li class="cta">
+					<form action="contact.html">
+						<button>Get in touch</button>
+					</form>
+				</li>
+			</ul>
+		</section>
+	</main>
+	<footer>
+		<ul class="icons">
+			<li><img src="http://nexusdigital.co/content/uploads/2014/03/facebook-icon.png" class="rolloversocial" alt="fb-link"/> </li>
+			<li><img src="http://icons.iconarchive.com/icons/sicons/basic-round-social/512/twitter-icon.png" class="rolloversocial" alt="tw-link"/> </li>
+			<li><img src="http://icons.iconarchive.com/icons/martz90/circle/512/linkedin-icon.png" class="rolloversocial" alt="li-link" /> </li>
+		</ul>
+		<ul>
+			<li><a href="mailto:archer.luke1@googlemail.com" class="footerlinks">archer.luke1@googlemail.com</a>
+			</li>
+			<li><a href="tel:07472343534" class="footerlinks">07472343534</a>
+			</li>
+			<li><a href="index.html" class="footerlinks">lukearcher.com</a>
+			</li>
+			<li><a href="sitemap.xml" class="footerlinks">Sitemap</a>
+			</li>
+		</ul>
+	</footer>
+	<script src="nav.js"></script>
+	<script src="clock.js"></script>
+	<script src="access.js"></script>
+	<script src="projectadding.js"></script>
 </body>
+
 </html>

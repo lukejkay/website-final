@@ -1,3 +1,4 @@
+//Get all elements within the DOM with id names below
 let submit1 = document.getElementById("submit");
 let name = document.getElementById("namefield");
 let email = document.getElementById("emailfield");
@@ -5,11 +6,15 @@ let txtarea = document.getElementById("textareafield");
 let emailcomplete = document.getElementById("email");
 
 function checkEmailDomain(e) {
+	//This variable is resetting itself everytime the function is called
 	let checkvalue;
 	if (window.event) {
 		checkvalue = e.keyCode;
 		console.log(checkvalue);
 	}
+//the next bit will work on desktop for browsers that do not suport the email type
+//it will check the users key input, and it will look for the @, when the user inputs the @ it will save the next char
+// and it will fill in the rest of the email address depending on the first letter
 	let email1 = email.value + String.fromCharCode(checkvalue);
 	console.log("full email = " + email1);
 	if (email.value.indexOf("@") > -1) {
@@ -41,7 +46,8 @@ function checkEmailDomain(e) {
 		}
 	}
 }
-
+// this function is called when the user submits the form,
+//it will make sure there is text in all fields, if it doesnt it will alert the user with the an alert in there browser
 function formcheck() {
 	console.log(name.value);
 	console.log(email.value);

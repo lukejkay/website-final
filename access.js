@@ -1,10 +1,10 @@
+//Get all elements within the DOM with id names below
 let buttonClick = document.getElementById("increasetext");
-console.log("value on page load" + localStorage.getItem("textsize"));
-if (localStorage.getItem("textsize") === "True") {
+console.log("value on page load" + localStorage.getItem("textsize")); //allows me to identify if the page is loading with largetext on or off, like a toggle
+if (localStorage.getItem("textsize") === "True") {//saved in local storage and called everytime the page is loaded
 	document.body.style.fontSize = "24px";
 }
-buttonClick.addEventListener("click", changeText);
-
+buttonClick.addEventListener("click", changeText);//when the button is clicked, the localstorage changes and so does the textsize of the page
 function changeText() {
 	let value = localStorage.getItem("textsize");
 	console.log(value);

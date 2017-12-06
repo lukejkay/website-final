@@ -1,14 +1,16 @@
+//Get all elements within the DOM with id names below
 let minutehandchange = document.getElementById("minutehand");
 let hourhandchange = document.getElementById("hourhand");
 let secondhandchange = document.getElementById("secondhand");
-var myVar = setInterval(function() {
+//Every second the clock will be updated
+let everysecond = setInterval(function() {
 	myClock()
 }, 1000);
-var date = new Date();
-var hour = date.getHours();
-var minute = date.getMinutes();
-var second = date.getSeconds();
-
+let date = new Date();
+let hour = date.getHours();
+let minute = date.getMinutes();
+let second = date.getSeconds();
+//sets the date hour and minutes and seconds every time it is called to a new date, as the old date will be the first set when page is opened
 function myClock() {
 	date = new Date();
 	hour = date.getHours();
@@ -18,7 +20,7 @@ function myClock() {
 	minutehandchange.setAttribute("style", "transform: rotate(" + tominutedegrees() + "deg);");
 	secondhandchange.setAttribute("style", "transform: rotate(" + toseconddegrees() + "deg);");
 }
-
+//these functions changes the degrees the images will be rotated in the css
 function tohourdegrees() {
 	return (360 / 12) * (hour)
 }

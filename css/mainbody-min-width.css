@@ -569,3 +569,144 @@ footer img {
         width: 900px;
     }
 }
+
+
+
+
+
+/*SVG styling for hiding elements, making the SVG responsive and animating the shapes and groups and paths */
+
+@keyframes hideshow {
+  0% { opacity: 1; }
+  10% { opacity: 1; }
+  15% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#n1 {
+  animation: hideshow 1s ease infinite;
+}
+
+#n2 {
+  animation: hideshow 1s 1.5s ease infinite;
+}
+#n3 {
+  animation: hideshow 1s 2.2s ease infinite;
+}
+
+#k1 {
+  animation: hideshow 1s ease infinite;
+}
+
+#k2 {
+  animation: hideshow 1s 1.5s ease infinite;
+}
+#k3 {
+  animation: hideshow 1s 2.2s ease infinite;
+}
+
+#k4 {
+  animation: hideshow 1s ease infinite;
+}
+
+#k5 {
+  animation: hideshow 1s 1.5s ease infinite;
+}
+#k6 {
+  animation: hideshow 1s 2.2s ease infinite;
+}
+
+@keyframes steameffect {
+  0% { opacity: 0; }
+  50% { opacity: 0.3; }
+  100% { opacity: 0; }
+}
+
+#steam1 {
+  opacity:0;
+  animation: steameffect 4s ease infinite;
+}
+
+#steam2 {
+  opacity:0;
+  animation: steameffect 4s 1s ease infinite;
+}
+#steam3 {
+  opacity:0;
+  animation: steameffect 4s 2s ease infinite;
+}
+
+
+#pen {
+  animation: rot 3s ease infinite alternate;
+}
+
+@keyframes rot {
+  20%, 100% {
+    transform: translateX(-15px) rotate(-1deg) ;
+  }
+}
+
+#pencil {
+  animation: rot2 3s ease infinite alternate;
+}
+@keyframes rot2 {
+  20%, 100% {
+    transform: translateX(20px) rotate(2deg) ;
+  }
+}
+
+#lamp, #lamp_light, #portfolio {
+  display:none;
+}
+
+#mug, #steams {
+  transform: translateX(200px);
+}
+
+#mouse {
+  transform: translateX(100px);
+}
+
+#pen_and_pot {
+  transform: translateX(-100px);
+}
+
+
+@media screen and (min-width: 750px) {
+  #lamp, #lamp_light, #portfolio {
+    display:block;
+  }
+
+  #mug, #steams, #pen_and_pot, #mouse {
+    transform: translateX(0);
+  }
+
+  #headersvg {
+    width:60%;
+  }
+
+  #light {
+    opacity: 0;
+    animation: lighteffect 7s infinite;
+  }
+  @keyframes lighteffect {
+    0% { opacity: 0; }
+    1% { opacity: 0.5; }
+    2% { opacity:0; }
+    3% { opacity: 0.5; }
+    4% { opacity:0; }
+    5% { opacity: 0.5; }
+    15% { opacity:0.5;}
+    30% { opacity:0;}
+  }
+}
+
+
+
+@media screen and (min-width: 1500px) {
+  #headersvg {
+    width:900px;
+  }
+}
+

@@ -690,6 +690,9 @@ footer img {
     opacity: 0;
     animation: lighteffect 7s infinite;
   }
+
+}
+
   @keyframes lighteffect {
     0% { opacity: 0; }
     1% { opacity: 0.5; }
@@ -697,11 +700,9 @@ footer img {
     3% { opacity: 0.5; }
     4% { opacity:0; }
     5% { opacity: 0.5; }
-    15% { opacity:0.5;}
-    30% { opacity:0;}
+    15% { opacity:0.5; }
+    30% { opacity:0; }
   }
-}
-
 
 
 @media screen and (min-width: 1500px) {

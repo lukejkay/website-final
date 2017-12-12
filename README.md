@@ -73,7 +73,7 @@ All of my final designs have been designed using Photoshop, this is a great way 
 ##### Contact page Design
 ![contact page prototype design](https://github.com/lukejkay/website-final/blob/master/images-readmefile/contact%20page%20final%20design%20desktop%20and%20mobile.jpg "contact page prototype design")
 
-## JavaScript Included in the website]
+## JavaScript Included in the website
 
 All of the javascript has been placed into 1 file as requested in labs, previously they were in seperate files so individual js would not be imported if it was not used.
  In further testing, I realised some event listeners were not being used causing the JavaScript to not work in seperate files, therefore I have reverted back to seperate JavaScript files.
@@ -162,8 +162,21 @@ but this would take a long time and permission to view computer settings.
 
 ## PARC
 
-Talk about PARC
+In my website You can see that the flexbox has made the alignment of the articles be perfectly inline as well as the content on the pages, I did conside PARC in my website but due to the designs earlier in the process I have used margins and rulers in photoshop for the desing.
+The wireframes also illustrate the alignment of content.
 
+## The SVG I have used and what animations and responsiveness you can expect
+
+I have deisgned my own svg which I have create in Illustrator, this allows me to save the file in SVG format and already label the layers with the names for the groups and ID's which will be used in animating the svg.
+When the design was complete and the SVG file was ready I placed the code into my test page (Header and footer design) which allows me to test without effecting other pages. Once the image was in place, I firstly made the whole of the viewport
+of the SVG responsive (mobile first) to change width depending on the size of the screen.
+After the responsiveness of the viewport was complete, I started with mobile design and all of the elements was hard to see and all crushed together, therefore I have used css to remove groups of the svg so they were not visibile and I had spaced all the other
+ elements out accordingly.
+When the responsiveness was complete and all groups looked reasonable in the UI I began animating the svg. i have listed the animations you can expect. Please be aware not all of the animations will work in all browsers, but all will work in Chrome <ENTER>
+1. Keyboard keys will go up and down as if someone is typing - not clear on mobile screen size
+2. Mug - you can see steam coming of the mug
+3. pens in the pen pot - will rotate around, please be patient as it is every 4 seconds
+4. Lamp - The light will flicker over the desk
 
 ## References
 The resources I have used are below, there are a fair few forums I have also used, but no code has been copied or taken from anywhere, all the code I have written myself.

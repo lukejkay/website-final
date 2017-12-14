@@ -1,12 +1,13 @@
 //Get all elements within the DOM with id names below
-let minutehandchange = document.getElementById("minutehand");
-let hourhandchange = document.getElementById("hourhand");
-let secondhandchange = document.getElementById("secondhand");
+const minutehandchange = document.getElementById("minutehand");
+const hourhandchange = document.getElementById("hourhand");
+const secondhandchange = document.getElementById("secondhand");
 //Every second the clock will be updated
-let everysecond = setInterval(function() {
+const everysecond = setInterval(function() {
 	myClock()
 }, 1000);
 let date = new Date();
+//For the clock timings I was going to use an object, I did not do this because I need to change the value of the object every second it is called through a the date variable being changed
 let hour = date.getHours();
 let minute = date.getMinutes();
 let second = date.getSeconds();

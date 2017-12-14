@@ -1,8 +1,8 @@
 //Get all elements within the DOM with id names below
-let allButton = document.getElementById("button-all");
-let webButton = document.getElementById("button-web");
-let graphicButton = document.getElementById("button-graphic");
-let printButton = document.getElementById("button-print");
+const allButton = document.getElementById("button-all");
+const webButton = document.getElementById("button-web");
+const graphicButton = document.getElementById("button-graphic");
+const printButton = document.getElementById("button-print");
 //when the links are pressed, and event click has occured on the element, it will call a function
 allButton.addEventListener("click", allFilterFunction);
 webButton.addEventListener("click", webFilterFunction);

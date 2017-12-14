@@ -1,7 +1,7 @@
 //I took this from the lab of front end web development, it was simple and all i needed to make my nav, the style is different but there was no requirement for me to change the js
 //Get all elements within the DOM with id names below
-let menuButton = document.getElementById("menu");
-let navMenu = document.getElementById("nav-menu");
+const menuButton = document.getElementById("menu");
+const navMenu = document.getElementById("nav-menu");
 let toggle = false;
 //the function will be called when the event of click has occured
 menuButton.addEventListener("click", toggleMenu);
